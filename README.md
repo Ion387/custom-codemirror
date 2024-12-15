@@ -27,7 +27,7 @@ npm start
 
 npm i @codemirror/lang-java
 
-### 2 Добавьте ключ в value*lang* в initialState, action creator и action в reducer.
+### 2 Добавьте ключ в initialState, action creator и action в codemirrorReducer.
 ### Redux/codemirrorReducer.js
 ```
 const initialState = {
