@@ -25,7 +25,7 @@ npm start
 - @replit/codemirror-lang-csharp
 ### пример:
 
-npm @codemirror/lang-html
+npm i @codemirror/lang-html
 
 ### 2 Добавьте ключ в value*lang* в initialState, action creator и action в reducer.
 ### Redux/codemirrorReducer.js
