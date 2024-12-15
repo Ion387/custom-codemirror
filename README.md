@@ -79,6 +79,7 @@ useEffect(() => {
 
 ```
 const onChange = (value) => {
+    setValue(value);
     switch (true) {
       case chosenLang === "java":
         dispatch(setValueJava(value));
