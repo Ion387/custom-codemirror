@@ -82,7 +82,6 @@ const onChange = (value) => {
     switch (true) {
       case chosenLang === "java":
         dispatch(setValueJava(value));
-        setValue(value);
         break;
       default:
         break;
