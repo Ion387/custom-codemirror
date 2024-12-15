@@ -16,7 +16,6 @@ const CodeMirrorCustom = (props) => {
     switch (true) {
       case chosenLang === "go":
         setExtensions([go({ jsx: true })]);
-
         setValue(valueGo);
         break;
       case chosenLang === "python":
