@@ -28,14 +28,13 @@ const CodeMirrorCustom = (props) => {
   }, [chosenLang]);
 
   const onChange = (value) => {
+    setValue(value);
     switch (true) {
       case chosenLang === "go":
         dispatch(setValueGo(value));
-        setValue(value);
         break;
       case chosenLang === "python":
         dispatch(setValuePython(value));
-        setValue(value);
       default:
         break;
     }
