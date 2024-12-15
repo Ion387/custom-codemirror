@@ -65,11 +65,10 @@ const codemirrorReducer = (state = initialState, action) => {
 export const runCodeTC = (language, data) => {
   return async (dispatch) => {
     await dispatch(loading());
-    let currentData = { language: language, data: data };
     try {
       let response = await axios.post(
         `https://jsonplaceholder.typicode.com/posts`,
-        { currentData },
+        { language: language, data: data },
         {
           timeout: 3000,
           headers: {
