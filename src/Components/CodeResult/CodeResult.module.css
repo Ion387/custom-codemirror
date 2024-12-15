@@ -1,0 +1,35 @@
+.runCode_block {
+  width: 225px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  background-color: #e2f2ff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.resultWindow {
+  height: 300px;
+  border: 2px solid #aaa;
+}
+
+.title {
+  text-align: center;
+  background-color: #e2f2ff;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+.runCode_text {
+  margin-left: 34px;
+}

@@ -1,0 +1,18 @@
+.main {
+}
+
+.chosenLang {
+  width: 80px;
+  text-align: center;
+  background-color: #e2f2ff;
+  border: 2px solid #aaa;
+  border-bottom: none;
+}
+
+.codeMirror_window {
+  border: 2px solid #aaa;
+}
+
+.codeMirror_header {
+  background-color: #f5f5f5;
+}

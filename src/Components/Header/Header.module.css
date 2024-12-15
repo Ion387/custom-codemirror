@@ -1,0 +1,19 @@
+.main{
+text-align: center;
+}
+
+
+h1{
+  color: #444;
+}
+.description{
+  font-size: 20px;
+  color: #444;
+  padding-bottom: 20px;
+}
+
+.choseLanguage_block{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
